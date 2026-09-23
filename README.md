@@ -28,10 +28,10 @@ codex-figma-plugins/
 
 ## 团队安装方法
 
-仓库是 private。安装前请确认 GitHub 账号已被加入 `stone-team-plugins/codex-figma-plugins`，并且本机 GitHub CLI 已登录该账号。
+仓库是 private。安装前请确认 GitHub 账号已被加入 `798139670-boop/codex-figma-plugins`，并且本机 GitHub CLI 已登录该账号。
 
 ```bash
-codex plugin marketplace add stone-team-plugins/codex-figma-plugins --ref main
+codex plugin marketplace add 798139670-boop/codex-figma-plugins --ref main
 codex plugin marketplace list
 ```
 
@@ -64,7 +64,7 @@ codex plugin marketplace upgrade stone-team-plugins
 
 ## 私有仓库权限要求
 
-- 仓库：`https://github.com/stone-team-plugins/codex-figma-plugins`
+- 仓库：`https://github.com/798139670-boop/codex-figma-plugins`
 - 权限：private
 - 团队成员至少需要对该仓库的 read 权限，才能添加 Marketplace 并安装插件。
 - 没有仓库访问权限时，`codex plugin marketplace add` 会失败。
@@ -72,7 +72,7 @@ codex plugin marketplace upgrade stone-team-plugins
 ## 常见问题
 
 **Marketplace 列表里看不到 Stone Team Plugins？**  
-确认已经执行 `codex plugin marketplace add stone-team-plugins/codex-figma-plugins --ref main`，并且当前 GitHub 账号能访问该私有仓库。然后重启客户端。
+确认已经执行 `codex plugin marketplace add 798139670-boop/codex-figma-plugins --ref main`，并且当前 GitHub 账号能访问该私有仓库。然后重启客户端。
 
 **能看到 Marketplace，但找不到 Figma Structure？**  
 打开 Plugins Directory，选择 Stone Team Plugins，确认插件名称是 Figma Structure。

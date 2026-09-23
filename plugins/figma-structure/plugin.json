@@ -3,7 +3,7 @@
   "name": "figma-structure",
   "version": "1.0.0",
   "description": "对 Figma 界面、图层、Auto Layout、组件和变量进行结构化处理。",
-  "repository": "https://github.com/stone-team-plugins/codex-figma-plugins",
+  "repository": "https://github.com/798139670-boop/codex-figma-plugins",
   "keywords": [
     "figma",
     "structure",
