@@ -1,0 +1,33 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "figma-structure",
+  "version": "1.0.0",
+  "description": "对 Figma 界面、图层、Auto Layout、组件和变量进行结构化处理。",
+  "repository": "https://github.com/stone-team-plugins/codex-figma-plugins",
+  "keywords": [
+    "figma",
+    "structure",
+    "design-system",
+    "auto-layout"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Figma Structure",
+        "shortDescription": "结构化处理 Figma 界面和图层",
+        "longDescription": "使用结构化工作流分析和整理 Figma 页面、Frame、Auto Layout、组件、变量及图层命名。",
+        "developerName": "Stone Team",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "使用 Figma Structure 分析并整理这个 Figma 界面。",
+          "检查这个 Figma 页面中的图层结构和 Auto Layout。"
+        ],
+        "brandColor": "#18A0FB"
+      }
+    }
+  }
+}

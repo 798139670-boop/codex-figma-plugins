@@ -1,0 +1,20 @@
+{
+  "name": "stone-team-plugins",
+  "interface": {
+    "displayName": "Stone Team Plugins"
+  },
+  "plugins": [
+    {
+      "name": "figma-structure",
+      "source": {
+        "source": "local",
+        "path": "./plugins/figma-structure"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figma to UGUI Structure"
+  short_description: "将 Figma 节点整理为可导出的 Unity UGUI 结构"
+  default_prompt: "Use $figma-structure to inspect and normalize this Figma node URL for Unity UGUI export."
